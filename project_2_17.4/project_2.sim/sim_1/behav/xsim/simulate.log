@@ -1,0 +1,85 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Block Memory Generator module tb.zynq_sys.base_zynq_i.blk_mem_ip.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.M_AXI_GP0.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.M_AXI_GP1.master
+[0] : *ZYNQ_VIP_INFO : M_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_GP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP0 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_GP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_HP0.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP0 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_HP1.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_HP2.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP2 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_HP3.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_HP3 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: tb.zynq_sys.base_zynq_i.processing_system7_0.inst.S_AXI_ACP.slave
+[0] : *ZYNQ_VIP_INFO : S_AXI_ACP : Port is DISABLED.
+running the tb
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.zynq_sys.base_zynq_i.axi_dma_ip.U0.I_PRMRY_DATAMOVER.gen_mm2s_full.I_MM2S_FULL_WRAPPER.gen_include_mm2s_sf.I_RD_SF.I_DATA_FIFO.blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/zynq_sys/base_zynq_i/axi_dma_ip/U0/I_PRMRY_DATAMOVER/gen_mm2s_full/I_MM2S_FULL_WRAPPER/gen_include_mm2s_sf/I_RD_SF/I_DATA_FIFO/blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_20  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb.zynq_sys.base_zynq_i.axi_dma_ip.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb/zynq_sys/base_zynq_i/axi_dma_ip/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_XD_FIFO/non_blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_79  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.zynq_sys.base_zynq_i.axi_dma_ip.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/zynq_sys/base_zynq_i/axi_dma_ip/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_XD_FIFO/non_blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_79  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb.zynq_sys.base_zynq_i.axi_dma_ip.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_DATA_FIFO.blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_instance.xpm_fifo_sync_inst.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /tb/zynq_sys/base_zynq_i/axi_dma_ip/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_DATA_FIFO/blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial270_138  File: /wrk/2017.4/nightly/2017_12_15_2086221/prep/rdi/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+[1050] : *ZYNQ_VIP_INFO : FPGA Soft Reset called for 0x1
+[1050] : *ZYNQ_VIP_INFO : FPGA Soft Reset called for 0x0
+[2050] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000000) -> AXI Write -> 4 bytes
+[2290] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000000) with Response 'OKAY'
+[2290] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000000) -> AXI Read -> 4 bytes
+[2450] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000000) with Response 'OKAY'
+             2450000, running the testbench, data read from BRAM was 32'h00000010
+[2450] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000004) -> AXI Write -> 4 bytes
+[2830] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000004) with Response 'OKAY'
+[2830] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000004) -> AXI Read -> 4 bytes
+[2990] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000004) with Response 'OKAY'
+             2990000, running the testbench, data read from BRAM was 32'h00000020
+[2990] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000008) -> AXI Write -> 4 bytes
+[3190] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000008) with Response 'OKAY'
+[3190] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000008) -> AXI Read -> 4 bytes
+[3350] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000008) with Response 'OKAY'
+             3350000, running the testbench, data read from BRAM was 32'h00000030
+[3350] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x4000000c) -> AXI Write -> 4 bytes
+[3670] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x4000000c) with Response 'OKAY'
+[3670] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x4000000c) -> AXI Read -> 4 bytes
+[3830] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x4000000c) with Response 'OKAY'
+             3830000, running the testbench, data read from BRAM was 32'h00000040
+[3830] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000010) -> AXI Write -> 4 bytes
+[4210] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000010) with Response 'OKAY'
+[4210] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000010) -> AXI Read -> 4 bytes
+[4370] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000010) with Response 'OKAY'
+             4370000, running the testbench, data read from BRAM was 32'h00000050
+[4370] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000014) -> AXI Write -> 4 bytes
+[4630] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000014) with Response 'OKAY'
+[4630] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000014) -> AXI Read -> 4 bytes
+[4790] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000014) with Response 'OKAY'
+             4790000, running the testbench, data read from BRAM was 32'h00000060
+[4790] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000018) -> AXI Write -> 4 bytes
+[4930] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40000018) with Response 'OKAY'
+[4930] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40000018) -> AXI Read -> 4 bytes
+[5090] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x40000018) with Response 'OKAY'
+             5090000, running the testbench, data read from BRAM was 32'h00000070
+[5090] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x4000001c) -> AXI Write -> 4 bytes
+[5530] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x4000001c) with Response 'OKAY'
+[5530] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x4000001c) -> AXI Read -> 4 bytes
+[5690] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Read for Starting Address(0x4000001c) with Response 'OKAY'
+             5690000, running the testbench, data read from BRAM was 32'h00000080
+[5690] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400030) -> AXI Write -> 4 bytes
+[6190] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400030) with Response 'OKAY'
+[6190] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400048) -> AXI Write -> 4 bytes
+[6490] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400048) with Response 'OKAY'
+[6490] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400058) -> AXI Write -> 4 bytes
+[7030] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400058) with Response 'OKAY'
+[7030] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400000) -> AXI Write -> 4 bytes
+[7330] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400000) with Response 'OKAY'
+[7330] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400018) -> AXI Write -> 4 bytes
+[7810] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400018) with Response 'OKAY'
+[7810] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Starting Address(0x40400028) -> AXI Write -> 4 bytes
+[8110] : M_AXI_GP0 : *ZYNQ_VIP_INFO : Done AXI Write for Starting Address(0x40400028) with Response 'OKAY'
+Simulation completed!
