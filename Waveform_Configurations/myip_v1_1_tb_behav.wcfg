@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="myip_v1_1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="myip_v1_1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="134300001fs"></ZoomEndTime>
+      <Cursor1Time time="70200000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="65"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject type="divider" fp_name="divider102">
+      <obj_property name="label">Clock &amp; Reset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">m00_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider104">
+      <obj_property name="label">Slave Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/s00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_S00_AXIS_inst/mst_exec_state" type="other">
+      <obj_property name="ElementShortName">mst_exec_state</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+      <obj_property name="label">Master Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/m00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_M00_AXIS_inst/mst_exec_state" type="other">
+      <obj_property name="ElementShortName">mst_exec_state</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_M00_AXIS_inst/read_pointer" type="other">
+      <obj_property name="ElementShortName">read_pointer</obj_property>
+      <obj_property name="ObjectShortName">read_pointer</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider107">
+      <obj_property name="label">Slave - FIFO Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_S00_AXIS_inst/FIFO_WR_EN" type="logic">
+      <obj_property name="ElementShortName">FIFO_WR_EN</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WR_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_S00_AXIS_inst/FIFO_WR_DATA" type="array">
+      <obj_property name="ElementShortName">FIFO_WR_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WR_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_S00_AXIS_inst/FIFO_FULL" type="logic">
+      <obj_property name="ElementShortName">FIFO_FULL</obj_property>
+      <obj_property name="ObjectShortName">FIFO_FULL</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider180">
+      <obj_property name="label">FIFO - Master Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_M00_AXIS_inst/FIFO_RD_EN" type="logic">
+      <obj_property name="ElementShortName">FIFO_RD_EN</obj_property>
+      <obj_property name="ObjectShortName">FIFO_RD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_M00_AXIS_inst/FIFO_RD_DATA" type="array">
+      <obj_property name="ElementShortName">FIFO_RD_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_RD_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myip_v1_1_M00_AXIS_inst/FIFO_EMPTY" type="logic">
+      <obj_property name="ElementShortName">FIFO_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">FIFO_EMPTY</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider179">
+      <obj_property name="label">FIFO Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myFIFO/r_WR_INDEX" type="other">
+      <obj_property name="ElementShortName">r_WR_INDEX</obj_property>
+      <obj_property name="ObjectShortName">r_WR_INDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myFIFO/r_FIFO_COUNT" type="other">
+      <obj_property name="ElementShortName">r_FIFO_COUNT</obj_property>
+      <obj_property name="ObjectShortName">r_FIFO_COUNT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myFIFO/r_RD_INDEX" type="other">
+      <obj_property name="ElementShortName">r_RD_INDEX</obj_property>
+      <obj_property name="ObjectShortName">r_RD_INDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/myip_v1_1_tb/uut/myFIFO/r_FIFO_DATA" type="array">
+      <obj_property name="ElementShortName">r_FIFO_DATA[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_FIFO_DATA[0:63][31:0]</obj_property>
+   </wvobject>
+</wave_config>

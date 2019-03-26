@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Slave_module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Slave_module_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="83200001fs"></ZoomEndTime>
+      <Cursor1Time time="52200000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Slave_module_tb/S_AXIS_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/S_AXIS_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/S_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/S_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/S_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/FIFO_WR_EN" type="logic">
+      <obj_property name="ElementShortName">FIFO_WR_EN</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WR_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/FIFO_WR_DATA" type="array">
+      <obj_property name="ElementShortName">FIFO_WR_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WR_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/stop_the_clock" type="other">
+      <obj_property name="ElementShortName">stop_the_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_the_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/uut/mst_exec_state" type="other">
+      <obj_property name="ElementShortName">mst_exec_state</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slave_module_tb/uut/write_pointer" type="other">
+      <obj_property name="ElementShortName">write_pointer</obj_property>
+      <obj_property name="ObjectShortName">write_pointer</obj_property>
+   </wvobject>
+</wave_config>

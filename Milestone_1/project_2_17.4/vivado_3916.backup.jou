@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar 19 17:46:39 2019
+# Process ID: 3916
+# Current directory: C:/Reference project 2017.4/project_2_17.4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9888 C:\Reference project 2017.4\project_2_17.4\project_2.xpr
+# Log file: C:/Reference project 2017.4/project_2_17.4/vivado.log
+# Journal file: C:/Reference project 2017.4/project_2_17.4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Reference project 2017.4/project_2_17.4/project_2.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Reference project 2017.4/project_2_17.4/project_2.srcs/sources_1/bd/base_zynq/base_zynq.bd}
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:myip:1.1 [get_ips  base_zynq_myip_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips base_zynq_myip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name myip_v1_1_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_1_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src} {C:/Users/pedagil/Desktop/IP_tb.vhd C:/Users/pedagil/Desktop/myip_v1_1_M00_AXIS.vhd C:/Users/pedagil/Desktop/FIFO_module.vhd C:/Users/pedagil/Desktop/myip_v1_1_S00_AXIS.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/IP_tb.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/myip_v1_1_M00_AXIS.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/myip_v1_1_S00_AXIS.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/FIFO_module.vhd}}] -no_script -reset -force -quiet
+remove_files  {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/IP_tb.vhd} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1.vhd} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/myip_v1_1_M00_AXIS.vhd} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/myip_v1_1_S00_AXIS.vhd} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src/FIFO_module.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_M00_AXIS.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_S00_AXIS.vhd}}] -no_script -reset -force -quiet
+remove_files  {{c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_M00_AXIS.vhd} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/hdl/myip_v1_1_S00_AXIS.vhd}}
+add_files -norecurse -copy_to {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src} {C:/Users/pedagil/Desktop/myip_v1_1.vhd C:/Users/pedagil/Desktop/myip_v1_1_M00_AXIS.vhd C:/Users/pedagil/Desktop/FIFO_module.vhd C:/Users/pedagil/Desktop/myip_v1_1_S00_AXIS.vhd}
+add_files -force -norecurse -copy_to {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src} {C:/Users/pedagil/Desktop/myip_v1_1.vhd C:/Users/pedagil/Desktop/myip_v1_1_M00_AXIS.vhd C:/Users/pedagil/Desktop/FIFO_module.vhd C:/Users/pedagil/Desktop/myip_v1_1_S00_AXIS.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -copy_to {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src} C:/Users/pedagil/Desktop/IP_tb.vhd
+add_files -force -fileset sim_1 -norecurse -copy_to {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/src} C:/Users/pedagil/Desktop/IP_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+launch_simulation
+source myip_v1_1_tb.tcl
+close_sim
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:myip:1.1 [get_ips  base_zynq_myip_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips base_zynq_myip_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name myip_v1_1_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_1_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+ipx::edit_ip_in_project -upgrade true -name myip_v1_1_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_1_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+ipx::edit_ip_in_project -upgrade true -name myip_v1_2_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_2_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+close_project
+generate_target Simulation [get_files {C:/Reference project 2017.4/project_2_17.4/project_2.srcs/sources_1/bd/base_zynq/base_zynq.bd}]
+export_ip_user_files -of_objects [get_files {C:/Reference project 2017.4/project_2_17.4/project_2.srcs/sources_1/bd/base_zynq/base_zynq.bd}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{C:/Reference project 2017.4/project_2_17.4/project_2.srcs/sources_1/bd/base_zynq/base_zynq.bd}}] -directory {C:/Reference project 2017.4/project_2_17.4/project_2.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Reference project 2017.4/project_2_17.4/project_2.ip_user_files} -ipstatic_source_dir {C:/Reference project 2017.4/project_2_17.4/project_2.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Reference project 2017.4/project_2_17.4/project_2.cache/compile_simlib/modelsim} {questa=C:/Reference project 2017.4/project_2_17.4/project_2.cache/compile_simlib/questa} {riviera=C:/Reference project 2017.4/project_2_17.4/project_2.cache/compile_simlib/riviera} {activehdl=C:/Reference project 2017.4/project_2_17.4/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source tb.tcl
+open_wave_config {C:/Reference project 2017.4/project_2_17.4/tb_behav.wcfg}
+relaunch_sim
+run 8000 ns
+run 8000 ns
+ipx::edit_ip_in_project -upgrade true -name myip_v1_1_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_1_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+ipx::edit_ip_in_project -upgrade true -name myip_v1_2_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_2_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+current_project project_2
+relaunch_sim
+run 8000 ns
+run 8000 ns
+report_ip_status -name ip_status 
+current_project myip_v1_2_project
+current_project project_2
+relaunch_sim
+run 8000 ns
+run 8000 ns
+current_project myip_v1_2_project
+current_project project_2
+relaunch_sim
+run 8000 ns
+run 8000 ns
+save_wave_config {C:/Reference project 2017.4/project_2_17.4/tb_behav.wcfg}
+close_sim
+close_project
+set_property version 1.6 [ipx::current_core]
+set_property previous_version_for_upgrade xilinx.com:user:myip:1.1 [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+open_project {C:/Reference project 2017.4/project_2_17.4/project_2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+open_wave_config {C:/Reference project 2017.4/project_2_17.4/tb_behav.wcfg}
+relaunch_sim
+run 8000 ns
+run 8000 ns
+ipx::edit_ip_in_project -upgrade true -name myip_v1_6_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_6_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+set_property version 1.7 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property previous_version_for_upgrade {xilinx.com:user:myip:1.1 xilinx.com:user:myip:1.6} [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path {c:/Reference project 2017.4/project_2_17.4/ip_repo}
+ipx::edit_ip_in_project -upgrade true -name myip_v1_7_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_7_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path {c:/Reference project 2017.4/project_2_17.4/ip_repo}
+relaunch_sim
+run 8000 ns
+run 8000 ns
+ipx::edit_ip_in_project -upgrade true -name myip_v1_7_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_7_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+set_property version 1.8 [ipx::current_core]
+set_property previous_version_for_upgrade {xilinx.com:user:myip:1.1 xilinx.com:user:myip:1.6 xilinx.com:user:myip:1.7} [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path {c:/Reference project 2017.4/project_2_17.4/ip_repo}
+relaunch_sim
+run 8000 ns
+run 8000 ns
+ipx::edit_ip_in_project -upgrade true -name myip_v1_8_project -directory {C:/Reference\ project\ 2017.4/project_2_17.4/project_2.tmp/myip_v1_8_project} {c:/Reference project 2017.4/project_2_17.4/ip_repo/myip_1.1/component.xml}
+update_compile_order -fileset sources_1
+current_project project_2
+relaunch_sim
+run 8000 ns
+run 8000 ns
+relaunch_sim
+run 8000 ns
+run 8000 ns
+current_project myip_v1_8_project
+set_property version 1.9 [ipx::current_core]
+set_property previous_version_for_upgrade {xilinx.com:user:myip:1.1 xilinx.com:user:myip:1.6 xilinx.com:user:myip:1.7 xilinx.com:user:myip:1.8} [ipx::current_core]
+set_property core_revision 1 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
